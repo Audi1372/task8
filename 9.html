@@ -1,0 +1,176 @@
+<!-- 9.Write HTML input tags snippet to show default values for all Form elements. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9.question</title>
+  </head>
+  <body>
+     <div>
+        <h1>All html form elements:</h1>
+            <ul>
+             <li>input</li>
+             <li>label</li>
+             <li>select</li>
+             <li>textarea</li>
+             <li>button</li>
+             <li>fieldset</li>
+             <li>legend</li>
+             <li>datalist</li>
+             <li>output</li>
+             <li>option</li>
+             <li>optgroup</li>
+            </ul>
+    </div>
+    <div>
+      <h2>input:</h2>
+        <p>
+            Depending on the type atribute we can use these <u>input</u> tag in many
+            ways. Several input tags are:
+        </p>
+        <p>
+            <b>TO CREATE BUTTON WITH DEFAULT VALUE <mark>button</mark></b>
+        </p>
+        <label for="button">Button:</label><br />
+        <input type="button" value=" button" /><br /><br />
+        <p><b> TO CREATE CHECKBOX TO SELECT MULTIPLE VALUES</b></p>
+        <label for="checkbox">Checkbox:</label><br />
+        <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+            value="check"
+        /><br /><br />
+        <p><b> TO SET COLOR WE USE THIS.BUT IN HTML5 IT REMOVED </b></p>
+            <label for="color">Color:</label><br />
+            <input type="color" name="color" id="color" /><br /><br />
+        <p><b>USED FOR THE INPUTFIELDS WHICH SHOULD CONTAIN DATE</b></p>
+            <label for="date">Date:</label><br />
+            <input type="date" name="date" id="date" /><br /><br />
+        <p><b>Used to specify the date and time with no tim zone</b></p>
+            <label for="datetime">Datetime</label><br />
+            <input type="datetime" name="datetime" id="Datetime" /><br /><br />
+        <p><b>Used to refer the email field</b></p>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="Email" /><br /><br />
+        <p><b>Used to refer the file field</b></p>
+            <label for="file">File:</label><br />
+            <input type="file" name="file" id="File" /><br /><br />
+        <p><b>Used to refer the hidden field</b></p>
+            <label for="hidden">Hidden:</label><br />
+            <input type="hidden" name="hidden" /><br /><br />
+        <p><b>Used to refer the img field</b></p>
+            <label for="image">Image:</label><br />
+            <input type="image" src="" />
+            <br /><br />
+        <p><b>Used to refer the month field</b></p>
+            <label for="month">Month:</label><br />
+            <input type="month" name="month" id="Month" /><br /><br />
+        <p><b>Used to refer the number field</b></p>
+            <label for="number">Number:</label><br />
+            <input type="number" name="number" id="Num" /><br /><br />
+        <p><b>Used to refer the password field</b></p>
+            <label for="password">Password:</label><br />
+            <input type="password" name="password" id="pword" /><br /><br />
+        <p><b>Used to chose one value </b></p>
+            <label for="radio">Radio:</label><br />
+            <input type="radio" name="radio" id="Radio" /><br /><br />
+        <p><b>Used to refer the range of field</b></p>
+            <label for="Range">Range:</label><br />
+            <input type="range" name="range" id="Range" /><br /><br />
+        <p><b>Used to refer the rest field</b></p>
+            <label for="reset">Reset:</label><br />
+            <input type="reset" value="reseted" /><br /><br />
+        <p><b>Used to refer the search field</b></p>
+            <label for="search">Search:</label><br />
+            <input type="search" name="search" id="Search" /><br /><br />
+        <p><b>Used to refer the submit field</b></p>
+            <label for="submit">Submit</label><br />
+            <input type="submit" value="submit" /><br /><br />
+        <p><b>Used to refer the phoneno field</b></p>
+            <label for="tel">Tel</label><br />
+            <input type="tel" name="tel" id="Tel" /><br /><br />
+        <p><b>Used to refer the text field</b></p>
+            <label for="txt">Text:</label><br />
+            <input type="text" name="txt" id="txt" /><br /><br />
+        <p><b>Used to refer the url field</b></p>
+            <label for="url">URL:</label><br />
+            <input type="url" name="url" id="URL" /><br /><br />
+        <p><b>Used to refer the week field</b></p>
+            <label for="week">Week:</label>
+            <input type="week" name="week" id="Week" />
+    </div>
+    <div>
+        <h3>label:</h3>
+        <p>label elent is used to lable the</p>
+    </div>
+    <div>
+        <h3>select:</h3>
+        <p>defines a drop down list</p>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+    <div>
+        <h3>textarea:</h3>
+        <p>used too define multi line input field</p>
+        <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+        </textarea>
+      
+    </div>
+    <div>
+        <h3>button:</h3>
+        <p>defines aclickable elements</p>
+        <button type="button">Click Me!</button>
+    </div>
+    <div>
+        <h3>fieldset</h3>
+        <p>used to group related elements</p>
+    </div>
+    <div>
+        <h3>legend</h3>
+        <p>used to make caption for fieldset</p>
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" value="John" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+            <input type="submit" value="Submit" />
+        </fieldset>
+    </div>
+    <div>
+        <h3>datalist</h3>
+        <p>specifies a list of pre-defined options for an input element.</p>
+        <input list="browsers" />
+        <datalist id="browsers">
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist>
+    </div>
+    <div>
+        <h3>output</h3>
+        <p>
+            represents the result of a calculation (like one performed by a script).
+        </p>
+        </div>
+        <div>
+        <h3>option</h3>
+        <p>Defines an option in a drop-down list</p>
+        </div>
+        <div>
+        <h3>optgroup</h3>
+        <p>Defines a group of related options in a drop-down list</p>
+    </div>
+  </body>
+</html>

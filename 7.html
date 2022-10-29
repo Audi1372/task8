@@ -1,0 +1,70 @@
+<!-- 7.Design form shown in the link (http://evc-cit.info/!/formguide/card_0.png) -->
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>7.Question</title>
+                    <style>
+                    input[type=text] {
+                    background: transparent;
+                    border: none;
+                    border-bottom: 2px solid #000000;
+                    font-style: italic;
+                    font-family: cursive;
+                }
+                #address{
+                    border: none;
+                    border-bottom: 2px solid #000000;
+                }
+                h1 {
+                    display:table;
+                    /* keep the background color wrapped tight */
+                    justify-content:flex-start;
+                    font-size:25px;
+                
+                }
+                    </style>
+                </head>
+                <body>
+                    <form>
+                        <fieldset>
+                        <h1 style="background-color:red">Yes! I want to subscribe to Mag-o-Zine</h1>
+                            <div class="container">
+                                
+                                <input type="text" id="fname" class="names"name="firstname"value="Joe" size="20">&emsp;&emsp;&nbsp;&nbsp;
+                                <input type="text" id="lname" class="names"name="lastname" value="Schemmigge"size="20"><br>
+                                <label for="fname"class="names">First Name:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                <label for="lname"class="names">Last Name:</label><br>
+                                <input type="text" id="address" class="names"name="Address"value="1001 washingthon street" size="50"><br>
+                                <label for="address"class="names">Address:</label><br>
+                                <input type="text" id="fname" class="names"name="city"value="ANTYLQ" size="10">&emsp;&emsp;
+                                <input type="text" id="fname" class="names"name="state"value="A" size="10">&emsp;&emsp;
+                                <input type="text" id="fname" class="names"name="zip"value="9999" size="10"><br>
+                                <label for="address"class="city">City:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                <label for="address"class="state">State:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                <label for="address"class="zip">Zip:</label>
+                            </div>
+                            <div>
+                                <span><b>Subscribe for:</b></span>
+                                <input type="checkbox" name="1year" id="1Year" checked>
+                                <label for="1year"class="1year">1year($19.95)</label>
+                                <input type="checkbox" name="1year" id="1Year">
+                                <label for="1year"class="1year">2year($35.00)</label>
+                            </div>
+                            <div>
+                                <p style="font-size:15px;"><b>Send me moore information about:</b></p>
+                                <input type="checkbox" name="computer-Zine" id="Computer-Zine" checked multiple>
+                                <label for="computer-Zine"class="Computer-Zine">Computer-Zine</label><br>
+                                <input type="checkbox" name="fishing-Zine" id="Fishing-Zine">
+                                <label for="fishing-Zine"class="Fishing-Zine">Fishing-Zine</label><br>
+                                <input type="checkbox" name="cat-o-Zine" id="Cat-o-Zine" checked>
+                                <label for="cat-o-Zine"class="Cat-o-Zine">Cat-o-Zine</label>
+                                
+                            </div>
+                        
+                    </form>
+                </fieldset>
+                    </body>
+                </html>
